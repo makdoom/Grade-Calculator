@@ -1,0 +1,116 @@
+body{
+    background-color: #03fcf0;
+}
+#background{
+    width: 570px;
+    height: 370px;
+    /* border: 1px solid black; */
+    margin: auto;
+    padding: auto;
+    display: block;
+    margin-top: 130px;
+    border-radius: 22px;
+    box-shadow: 5px 5px 15px black;
+}
+.color{
+    background-color:#2b2f3c
+}
+#header{
+    width: 550px;
+    height: 50px;
+    display: block;
+   /* border: 2px solid white; */
+    /* margin-top: 10px;
+    margin-left: 10px; */
+    
+}
+#header #heading{
+    color: white;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: #1ffaddf8;
+    letter-spacing: 2px;
+    padding-top:15px ;
+}
+
+#inputArea{
+    display: inline-block;
+    width: 230px;
+    height: 300px;
+    padding-left: 30px;
+    /* justify-content: center;
+    align-items: center; */
+    /* border: 2px solid white; */
+}
+#resultArea{
+    float: right;
+    width: 300px;
+    height: 290px;
+    /* border: 1px solid white; */
+}
+.main{
+    margin:10px;
+    margin-left: 27px;
+    color: rgba(255, 255, 255, 0.788);
+    font-family: 'Righteous', cursive;
+    letter-spacing: 2px;
+}
+#inputArea #sub input{
+    box-sizing: border-box;
+    height: 25px;
+    width: 215px;
+    margin-bottom:8px ;
+    box-shadow: none;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    padding: 5px;
+    color: white;
+    font-family: 'Righteous', cursive;
+    /* border-color: rgba(19, 18, 18, 0.795); */
+}
+#sub{
+    color: white;
+    font-family: 'Righteous', cursive;
+    margin: 10px
+}
+#btnArea{
+    /* border: 2px solid white */
+}
+#btnArea #btn{
+    margin: auto;
+    padding: auto;
+    display: block;
+    margin-top: 25px;
+    width: 150px;
+    height: 45px;
+    box-sizing: border-box;
+    padding: 10px;
+    color: #2b2f3c;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: linear-gradient(to right,#00f2e6,#00de59,#00f2e6);
+    background-size: 200%;
+    transition: 0.5s all;
+}
+#btnArea #btn:hover{
+    background-position: right center;
+}
+::placeholder {
+    color: white;
+    letter-spacing: 1.2px;
+}
+#resultArea #result{
+    padding-top: 70px;
+    padding-right: 8px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+    font-family: 'Righteous', cursive;
+    
+}
